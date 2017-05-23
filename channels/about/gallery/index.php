@@ -1,0 +1,20 @@
+<?php require_once('../../../bin/paths.php'); ?>
+
+<ul id="filmstrip" class="jcarousel-skin-filmstrip">
+	<li><img class="content" src="<?php echo $cdn_path; ?>content/about/media/interior0.jpg" alt="Image caption goes here." width="940" height="436" /></li>
+	<li><img class="content" src="<?php echo $cdn_path; ?>content/about/media/interior2.jpg" alt="Image caption goes here." width="912" height="436" /></li>
+	<li><img class="content" src="<?php echo $cdn_path; ?>content/about/media/interior10.jpg" alt="Image caption goes here." width="649" height="436" /></li>
+	<li><img class="content" src="<?php echo $cdn_path; ?>content/about/media/interior4.jpg" alt="Image caption goes here." width="291" height="436" /></li>
+	<li><img class="content" src="<?php echo $cdn_path; ?>content/about/media/interior12.jpg" alt="Image caption goes here." width="659" height="436" /></li>
+	<li><img class="content" src="<?php echo $cdn_path; ?>content/about/media/interior11.jpg" alt="Image caption goes here." width="291" height="436" /></li>
+	<li><img class="content" src="<?php echo $cdn_path; ?>content/about/media/interior14.jpg" alt="Image caption goes here." width="654" height="436" /></li>
+	<li><img class="content" src="<?php echo $cdn_path; ?>content/about/media/interior7.jpg" alt="Image caption goes here." width="325" height="436" /></li>
+	<li><img class="content" src="<?php echo $cdn_path; ?>content/about/media/interior3.jpg" alt="Image caption goes here." width="654" height="436" /></li>
+	<li><img class="content" src="<?php echo $cdn_path; ?>content/about/media/interior5.jpg" alt="Image caption goes here." width="331" height="436" /></li>
+	<li><img class="content" src="<?php echo $cdn_path; ?>content/about/media/interior8.jpg" alt="Image caption goes here." width="605" height="436" /></li>
+	<li><img class="content" src="<?php echo $cdn_path; ?>content/about/media/interior9.jpg" alt="Image caption goes here." width="297" height="436" /></li>
+	<li><img class="content" src="<?php echo $cdn_path; ?>content/about/media/interior6.jpg" alt="Image caption goes here." width="605" height="436" /></li>
+		
+
+	
+</ul>

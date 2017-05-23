@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portfolio>
+	<campaigns category="Campaign">
+		<item>
+			<title>Experience The Tise</title>
+			<href>channels/client/hyundai/campaigns/ #experienceriptide</href>
+			<thumb>content/client/hyundai/campaigns/assets/thumbs/tucson_01.jpg</thumb>
+			<showCaption>false</showCaption>
+		</item>
+        <item>
+			<title>Sonata Turboface:1</title>
+			<href>channels/client/hyundai/campaigns/ #turboface</href>
+			<thumb>content/client/hyundai/campaigns/assets/thumbs/turboface_01.jpg</thumb>
+			<showCaption>false</showCaption>
+		</item>
+		<item>
+			<title>FIFA World Cup:1</title>
+			<href>channels/client/hyundai/campaigns/ #fifa</href>
+			<thumb>content/client/hyundai/campaigns/assets/thumbs/fifa_01.jpg</thumb>
+			<showCaption>false</showCaption>
+		</item>
+		<item>
+			<title>Sonata Hybrid:1</title>
+			<href>channels/client/hyundai/campaigns/ #sonatahybrid</href>
+			<thumb>content/client/hyundai/campaigns/assets/thumbs/sonatahybrid_01.jpg</thumb>
+			<showCaption>false</showCaption>
+		</item>
+		<item>
+			<title>Equus:1</title>
+			<href>channels/client/hyundai/campaigns/ #equus</href>
+			<thumb>content/client/hyundai/campaigns/assets/thumbs/equus_01.jpg</thumb>
+			<showCaption>false</showCaption>
+		</item>
+		<item>
+			<title>Dodgers:1</title>
+			<href>channels/client/hyundai/campaigns/ #dodgers</href>
+			<thumb>content/client/hyundai/campaigns/assets/thumbs/dodgers_01.jpg</thumb>
+			<showCaption>false</showCaption>
+		</item>
+		
+		<item>
+			<title>Genesis:1</title>
+			<href>channels/client/hyundai/campaigns/ #genesis</href>
+			<thumb>content/client/hyundai/campaigns/assets/thumbs/genesis_01.jpg</thumb>
+			<showCaption>false</showCaption>
+		</item>
+		<item>
+			<title>Genesis:2</title>
+			<href>channels/client/hyundai/campaigns/ #genesis</href>
+			<thumb>content/client/hyundai/campaigns/assets/thumbs/genesis_02.jpg</thumb>
+			<showCaption>false</showCaption>
+		</item>
+		<item>
+			<title>Genesis:3</title>
+			<href>channels/client/hyundai/campaigns/ #genesis</href>
+			<thumb>content/client/hyundai/campaigns/assets/thumbs/genesis_03.jpg</thumb>
+			<showCaption>false</showCaption>
+		</item>
+		<item>
+			<title>Genesis:4</title>
+			<href>channels/client/hyundai/campaigns/ #genesis</href>
+			<thumb>content/client/hyundai/campaigns/assets/thumbs/genesis_04.jpg</thumb>
+			<showCaption>false</showCaption>
+		</item>
+		<item>
+			<title>Sonata:1</title>
+			<href>channels/client/hyundai/campaigns/ #sonata</href>
+			<thumb>content/client/hyundai/campaigns/assets/thumbs/sonata_01.jpg</thumb>
+			<showCaption>false</showCaption>
+		</item>
+		
+		
+	</campaigns>
+</portfolio>

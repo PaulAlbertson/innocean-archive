@@ -1,0 +1,333 @@
+{
+	"version":	"0.1.1",
+	"updated":	"8.2.2011",
+	"cdn":		"http://innocean.s3.amazonaws.com/",
+	
+	"client":
+	[
+		{
+			"name": "Hyundai",
+			
+			"print":
+			{
+				"category":		"Print",
+				"thumb_path":	"content/client/hyundai/print/assets/thumbs/",
+				"items":
+				[
+					{
+						"title":	"Elantra",
+						"index":	"1",
+						"thumb":	"elantra_01.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Elantra",
+						"index":	"2",
+						"thumb":	"elantra_02.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Elantra",
+						"index":	"3",
+						"thumb":	"elantra_03.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Sonata Turboface",
+						"index":	"1",
+						"thumb":	"turboface_01.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Sonata Turboface",
+						"index":	"2",
+						"thumb":	"turboface_02.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Sonata Turboface",
+						"index":	"3",
+						"thumb":	"turboface_03.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Sonata Turboface",
+						"index":	"4",
+						"thumb":	"turboface_04.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"FIFA 2010 World Cup",
+						"index":	"1",
+						"thumb":	"fifa_01.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"FIFA 2010 World Cup",
+						"index":	"2",
+						"thumb":	"fifa_02.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"FIFA 2010 World Cup",
+						"index":	"3",
+						"thumb":	"fifa_03.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"FIFA 2010 World Cup",
+						"index":	"4",
+						"thumb":	"fifa_04.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Sonata Hybrid",
+						"index":	"1",
+						"thumb":	"sonatahybrid_01.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Sonata Hybrid",
+						"index":	"2",
+						"thumb":	"sonatahybrid_02.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Equus",
+						"index":	"1",
+						"thumb":	"equus_01.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Equus",
+						"index":	"2",
+						"thumb":	"equus_02.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Equus",
+						"index":	"3",
+						"thumb":	"equus_03.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Equus",
+						"index":	"4",
+						"thumb":	"equus_04.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Equus",
+						"index":	"5",
+						"thumb":	"equus_05.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Dodgers",
+						"index":	"1",
+						"thumb":	"dodgers_01.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Dodgers",
+						"index":	"2",
+						"thumb":	"dodgers_02.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Dodgers",
+						"index":	"3",
+						"thumb":	"dodgers_03.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Dodgers",
+						"index":	"4",
+						"thumb":	"dodgers_04.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Dodgers",
+						"index":	"5",
+						"thumb":	"dodgers_05.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Dodgers",
+						"index":	"6",
+						"thumb":	"dodgers_06.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Dodgers",
+						"index":	"7",
+						"thumb":	"dodgers_07.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Dodgers",
+						"index":	"8",
+						"thumb":	"dodgers_08.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Genesis",
+						"index":	"1",
+						"thumb":	"genesis_01.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Genesis",
+						"index":	"2",
+						"thumb":	"genesis_02.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Genesis",
+						"index":	"3",
+						"thumb":	"genesis_03.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Genesis",
+						"index":	"4",
+						"thumb":	"genesis_04.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Genesis",
+						"index":	"5",
+						"thumb":	"genesis_05.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Genesis",
+						"index":	"6",
+						"thumb":	"genesis_06.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Genesis",
+						"index":	"7",
+						"thumb":	"genesis_07.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Genesis",
+						"index":	"8",
+						"thumb":	"genesis_08.jpg",
+						"caption":	"false"
+					}
+				]
+			},
+			
+			"campaigns":
+			{
+				"category":		"Campaign",
+				"thumb_path":	"content/client/hyundai/",
+				"items":
+				[
+					{
+						"title":	"Elantra",
+						"index":	"1",
+						"thumb":	"print/assets/thumbs/elantra_01.jpg",
+						"caption":	"true"
+					},
+					{
+						"title":	"Equus",
+						"index":	"1",
+						"thumb":	"print/assets/thumbs/equus_01.jpg",
+						"caption":	"true"
+					},
+					{
+						"title":	"FIFA 2010 World Cup",
+						"index":	"1",
+						"thumb":	"print/assets/thumbs/fifa_01.jpg",
+						"caption":	"true"
+					},
+					{
+						"title":	"Safety",
+						"index":	"1",
+						"thumb":	"broadcast/assets/thumbs/room.jpg",
+						"caption":	"true"
+					},
+					{
+						"title":	"Sonata Hybrid",
+						"index":	"1",
+						"thumb":	"print/assets/thumbs/sonatahybrid_01.jpg",
+						"caption":	"true"
+					},
+					{
+						"title":	"Sonata Turbo Launch",
+						"index":	"1",
+						"thumb":	"print/assets/thumbs/turboface_01.jpg",
+						"caption":	"true"
+					}
+				]
+			},
+			
+			"broadcast":
+			{
+				"category":		"Broadcast",
+				"thumb_path":	"content/client/hyundai/broadcast/assets/thumbs/",
+				"items":
+				[
+					{
+						"title":	"Equus iPad Owners Manual",
+						"index":	"1",
+						"thumb":	"equus_ipad.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"New Drivers - Bull",
+						"index":	"1",
+						"thumb":	"bull.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"New Drivers - Bungee",
+						"index":	"1",
+						"thumb":	"bungee.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"New Drivers - Room",
+						"index":	"1",
+						"thumb":	"room.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Anachronistic City",
+						"index":	"1",
+						"thumb":	"anachronistic_city.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Sonata Turboface",
+						"index":	"1",
+						"thumb":	"turboface.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"FIFA 2010 World Cup - Diehard",
+						"index":	"1",
+						"thumb":	"diehard.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"FIFA 2010 World Cup - Baby's Name",
+						"index":	"1",
+						"thumb":	"babysname.jpg",
+						"caption":	"false"
+					},
+					{
+						"title":	"Body Pass",
+						"index":	"1",
+						"thumb":	"hope_on_wheels.jpg",
+						"caption":	"false"
+					}
+				]
+			}
+		}	
+	]
+}

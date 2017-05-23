@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+
+<style type="text/css"  >
+
+	body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+		margin:0;
+		padding:0;
+	}
+	table {
+		border-collapse:collapse;
+		border-spacing:0;
+	}
+	fieldset,img { 
+		border:0;
+	}
+	address,caption,cite,code,dfn,em,strong,th,var {
+		font-style:normal;
+		font-weight:normal;
+	}
+	ol,ul {
+		list-style:none;
+	}
+	caption,th {
+		text-align:left;
+	}
+	h1,h2,h3,h4,h5,h6 {
+		font-size:100%;
+		font-weight:normal;
+	}
+	q:before,q:after {
+		content:'';
+	}
+	abbr,acronym { border:0;
+	}
+	
+</style>
+
+</head>
+
+<body>
+
+
+<div id='tweets'>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 8,
+  interval: 30000,
+  width: 460,
+  height: 350,
+
+  theme: {
+    shell: {
+      background: '#ccc',
+      color: '#555'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#222',
+      links: '#FF5600 '
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('innoceanusa').start();
+</script>
+
+
+</div>
+
+</div>
+</body>
+</html>

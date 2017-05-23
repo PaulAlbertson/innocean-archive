@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portfolio>
+	
+	<campaigns category="Portfolio">
+
+		 <item>
+			<title>Santa Fe Big Game Ad</title>
+			<href>channels/client/hyundai/portfolio/ #santafeteam</href>
+			<thumb>content/client/hyundai/portfolio/assets/santafeteam/santafeteam_306x179.jpg</thumb>
+			<showCaption>true</showCaption>
+		</item>
+		<item>
+			<title>Santa Fe Big Game Ad</title>
+			<href>channels/client/hyundai/portfolio/ #santafeepicplaydate</href>
+			<thumb>content/client/hyundai/portfolio/assets/santafeepicplaydate/santafeepicplaydate_306x179.jpg</thumb>
+			<showCaption>true</showCaption>
+		</item>
+		<item>
+			<title>Sonata Turbo Big Game Ad</title>
+			<href>channels/client/hyundai/portfolio/ #sonataturbo</href>
+			<thumb>content/client/hyundai/portfolio/assets/sonataturbo/sonataturbo_306x179.jpg</thumb>
+			<showCaption>true</showCaption>
+		</item>
+		
+		<item>
+			<title>FJ. The Mark of a Player.</title>
+			<href>channels/client/hyundai/portfolio/ #fj</href>
+			<thumb>content/client/hyundai/portfolio/assets/fj/fj_306x179.jpg</thumb>
+			<showCaption>true</showCaption>
+		</item>
+		<item>
+			<title>Beach Clean Up App</title>
+			<href>channels/client/hyundai/portfolio/ #beachcleanup</href>
+			<thumb>content/client/hyundai/portfolio/assets/beachcleanup/beachcleanup_306x179.jpg</thumb>
+			<showCaption>true</showCaption>
+		</item>
+		<item>
+			<title>Genesis</title>
+			<href>channels/client/hyundai/portfolio/ #sympathycards</href>
+			<thumb>content/client/hyundai/portfolio/assets/sympathycards/sympathycards_306x179.jpg</thumb>
+			<showCaption>true</showCaption>
+		</item>
+		
+		
+		
+        <item>
+			<title>Veloster</title>
+			<href>channels/client/hyundai/portfolio/ #veloster</href>
+			<thumb>content/client/hyundai/portfolio/assets/veloster/veloster_306x179.jpg</thumb>
+			<showCaption>true</showCaption>
+		</item>
+		<item>
+			<title>Equus</title>
+			<href>channels/client/hyundai/portfolio/ #equusipadownersmanuel</href>
+			<thumb>content/client/hyundai/portfolio/assets/equusipadowners/equus_ipadownersmanuel_306x179.jpg</thumb>
+			<showCaption>true</showCaption>
+		</item>
+		<item>
+			<title>Elantra</title>
+			<href>channels/client/hyundai/portfolio/ #elantrawalkingdead</href>
+			<thumb>content/client/hyundai/portfolio/assets/elantrawalkingdead/elantrawalkingdead_306x179.jpg</thumb>
+			<showCaption>true</showCaption>
+		</item>
+		<item>
+			<title>Sonata</title>
+			<href>channels/client/hyundai/portfolio/ #sonata</href>
+			<thumb>content/client/hyundai/portfolio/assets/sonata/sonata_306x179.jpg</thumb>
+			<showCaption>true</showCaption>
+		</item>
+     
+		<item>
+			<title>Azera</title>
+			<href>channels/client/hyundai/portfolio/ #azera</href>
+			<thumb>content/client/hyundai/portfolio/assets/azera/azera_306x179.jpg</thumb>
+			<showCaption>true</showCaption>
+		</item>
+        <item>
+			<title>FIFA</title>
+			<href>channels/client/hyundai/portfolio/ #fifa</href>
+			<thumb>content/client/hyundai/portfolio/assets/fifa/fifa_306x179.jpg</thumb>
+			<showCaption>true</showCaption>
+		</item>
+		<item>
+			<title>Genesis</title>
+			<href>channels/client/hyundai/portfolio/ #genesis</href>
+			<thumb>content/client/hyundai/portfolio/assets/genesis/genesis_306x179.jpg</thumb>
+			<showCaption>true</showCaption>
+		</item>
+		
+		<item>
+			<title>Sonata Turbo</title>
+			<href>channels/client/hyundai/portfolio/ #turboface</href>
+			<thumb>content/client/hyundai/portfolio/assets/turboface/turboface_306x179.jpg</thumb>
+			<showCaption>true</showCaption>
+		</item>
+		<item>
+			<title>'Wrap Party on 5th' by Shag</title>
+			<href>channels/client/hyundai/portfolio/ #shag</href>
+			<thumb>content/client/hyundai/portfolio/assets/shag/shag_306x179.jpg</thumb>
+			<showCaption>true</showCaption>
+		</item>
+	</campaigns>
+</portfolio>

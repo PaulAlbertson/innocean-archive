@@ -1,0 +1,153 @@
+#marqee-nav {
+  padding: 0px 0 0 0;
+  background: #73736D;
+}
+#logo {
+  display: block;
+  height: 107px;
+  clear: right;
+  margin-left: 0px;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #959691;
+}
+#logo h1 {
+  padding-top: 50px;
+  line-height: 36px;
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+#logo strong {
+  color: #F75300;
+  font-family: 'AvantGardeDemi';
+  font-size: 36px;
+  text-transform: uppercase;
+}
+#logo span {
+  padding-left: 32px;
+  color: #F75300;
+  font-family: 'AvantGardeBook';
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.marquee-sep {
+  width: 100%;
+  top: 88px;
+  height: 20px;
+  border-bottom: 1px solid #959691;
+  transition: all 1s ease-in-out;
+}
+.navbar .nav.pull-right {
+  margin-left: 10px;
+  margin-right: 0;
+}
+.navbar .nav.pull-right {
+  float: right;
+}
+.nav-collapse {
+  width: 100%;
+  border-bottom: 1px solid #959691;
+  padding-top: 36px;
+}
+.navbar .nav {
+  margin-left: 0;
+}
+.navbar .nav#main-nav {
+  border-bottom: none;
+}
+.navbar .nav#main-nav li {
+  width: 136px;
+  padding-right: 45px;
+}
+.navbar .nav li a {
+  display: block;
+  padding-top: 0;
+  padding-right: 0;
+}
+.navbar .nav#social-nav {
+  border-bottom: none;
+}
+.navbar .nav#social-nav li {
+  width: 70px;
+}
+.navbar .nav#social-nav li .main-head {
+  padding-bottom: 15px;
+}
+.navbar .nav#social-nav li .sub-head {
+  text-align: right;
+}
+.navbar .nav#social-nav li.twitter {
+  margin-right: 90px;
+}
+.navbar .nav#social-nav li.twitter:hover i {
+  background-position: -3px -45px;
+}
+.navbar .nav#social-nav li.facebook:hover i {
+  background-position: -67px -44px;
+}
+.navbar .nav .main-head {
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 18px;
+}
+.navbar .nav .main-head i {
+  background: url("../images/nav-social.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  z-index: 999;
+  float: right;
+  clear: both;
+  display: block;
+}
+.navbar .nav .main-head i.twitter {
+  width: 34px;
+  height: 23px;
+  background-position: -3px -5px;
+}
+.navbar .nav .main-head i.fb {
+  width: 20px;
+  height: 23px;
+  background-position: -67px -4px;
+}
+.navbar .nav .sub-head {
+  display: block;
+  font-family: "Trebuchet MS", "TrebuchetMS", 'TrebuchetMS', Arial, sans-serif;
+  font-size: 11px;
+  letter-spacing: normal;
+  overflow: hidden;
+  height: 74px;
+  padding-bottom: 0px;
+  clear: both;
+}
+.pane4 {
+  width: 100%;
+  position: relative;
+  z-index: 10001;
+  height: 1px;
+  padding: 18px 0;
+  background: url("../images/lines.png") left center repeat-x #73736d;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.navbar .navbar-inner {
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  padding-bottom: 10px;
+}
+.navbar .container {
+  position: relative;
+  width: 1000px;
+}
+.navbar ul {
+  padding-bottom: 0;
+}
+.navbar.navbar-fixed-top  + .marquee-wrap {
+  margin-top: 275px;
+}
+.marquee-wrap {
+  margin-top: 0;
+  background-color: #73736D;
+}

@@ -1,0 +1,409 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* =============================================================================
+   About Section
+   ========================================================================== */
+
+   #about-top-wrap {
+		background: transparent url(../images/about-bg.png) 50% 50% no-repeat;
+		height: 317px;
+		width: 100%;
+		margin: 0 auto;
+   }
+
+   #about-wrap{
+		background-color: #ff5600;
+		color: #fff;
+		height: 2700px;
+		margin: 0 auto;
+		width: 100%;
+   }
+
+   		#about-hero {
+			height: 109px;
+			margin: 0 auto;	
+			padding: 100px 0 150px 40px;
+			width: 1000px;
+   		}
+
+   		#about-tabs-nav {
+			   			   		
+	   		margin: 0 auto;
+	   	/*	height: 70px;*/
+	   		width: 960px;
+   		}
+
+   			#about-tabs-nav-cont {
+	   			margin: 0 auto;
+	   			width: 950px;
+   			}
+  		
+   			#about-tabs-nav-cont ul  {
+   				border-radius: 1px;
+   				background-color: #ff5f0e;
+   				box-shadow: inset 0 1px 4px rgba(0,0,0,.2);	
+	   			padding: 26px 0 0 88px;
+	   			margin-bottom: 0;
+   			}
+   		
+	   			#about-tabs-nav-cont ul li {
+		   			display: block;
+		   			float: left;
+		   			list-style-type: none;
+		   			margin: 0 40px 0 6px;
+	   			}
+	   			
+
+	   				#about-tabs-nav-cont ul li a, #about-tabs-nav-cont ul li a:active {
+		   				color: #000;
+		   				font-family: 'AvantGardeDemi';
+		   				font-size: 2.3em;
+		   				text-shadow: none;
+		   				padding-bottom: 23px;
+		   				display: block;
+	   				}
+
+	   				#about-tabs-nav-cont ul li a:hover, a:focus {
+		   				color: #585858;
+		   				font-family: 'AvantGardeDemi';
+		   				font-size: 2.3em;
+		   				text-shadow: none;
+	   				}
+	   				#about-tabs-nav-cont ul li a.about-active  {
+		   				color: #fff;
+	   				}
+
+	   		#about-tabs-tick-wrap {
+		   		clear: both;
+		   		display: block;
+		   		margin: 0 auto;
+		   		padding: 8px 0 8px 0;
+		   		height: 21px;
+		   		width: 960px;
+	   		}	
+   		
+	   			#about-tabs-tick-loc {
+		   			display: block;
+		   			height: 15px;
+		   			width: 21px;
+	   			}
+   		
+   		
+   		#about-the-way-we-work-wrap {
+   			height: 500px;
+   			margin: 0 auto;
+   			padding: 38px 0 0 0;
+   			width: 942px;
+   		}
+   		
+   			.the-way-we-work-hero {
+   				color: #fff;
+				font-family: 'AvantGardeDemi';
+	   			font-size: 4.307em;
+	   			font-weight: bold;
+	   			line-height: 1.3em;
+   			}
+   			
+   			.the-way-we-work-hero-black{
+   				color: #000;
+				font-family: 'AvantGardeDemi';
+	   			font-size: 4.307em;
+	   			font-weight: bold;
+	   			line-height: 1.3em;
+   			}
+
+
+   			#the-way-we-work-wrap {
+	   			height: 550px;
+	   			margin: 0 auto;
+	   			width: 955px;
+   			}
+   			
+   			
+   				#way-we-work-content-cont {
+	   				display: block;
+	   				padding: 18px 0 0 0;
+	   				width: 100%;
+   				}
+   				
+   				#way-we-work-content-cont p {	
+	   				color: #fff;
+	   				font-size: 1.692em;
+	   				font-family: 'AvantGardeDemi';
+	   				font-weight: bold;
+	   				line-height: 1.5em;
+   				}
+   			
+   			
+   				.the-way-we-work-body {
+		   			color: #fff;
+					font-family: "Trebuchet MS", "TrebuchetMS", 'TrebuchetMS', Arial, sans-serif;
+		   			font-size: 1.1em;
+		   			line-height: 1.775em;
+		   			padding: 44px 0 50px 0;
+		   			width: 450px;
+		   		}
+   				.the-way-we-work-final {
+		   			color: #000;
+					font-family: 'AvantGardeDemi';
+		   			font-size: 4.3em;
+		   			margin-bottom: 2em;
+		   		}
+		   		
+		   		.way-we-work-bold {
+			   		color: #000;
+			   		font-weight: bold;			   		
+		   		}
+		   		
+		   		.tm {
+		   			font-size: 1.4em;
+		   		}
+
+   		#about-our-people {
+	   		
+	   		
+   		}
+
+   		#about-people-wrap {
+   			margin: 0 auto;
+   			height: 620px;
+   			width: 960px;
+   		}
+
+   			#about-people-hero-wrap {
+   				margin: 0 auto;
+   				padding: 114px 0 0 0;
+   				width: 960px;
+   			}
+
+   			.about-people-hero h1 {
+   				color: #fff;
+				font-family: 'AvantGardeDemi';
+	   			font-size: 4.30em;
+	   			line-height: 1.125em;
+   			}
+
+   			.about-people-hero p {
+   				color: #fff;
+				font-family: "Trebuchet MS", "TrebuchetMS", 'TrebuchetMS', Arial, sans-serif;
+   				font-size: 1.16em;
+   				padding: 28px 0 0 0;
+   			}
+
+   			#about-people-photos-wrap {
+   				 margin: 0 auto;
+   				/* height: 620px;*/
+   				 width: 950px;
+   			}
+
+   			#about-people-photos-wrap ul li {
+   				float: left;
+   				list-style-type: none;
+   				width: 185px;
+   				margin-right: 6px;
+   			}
+   			#about-people-photos-wrap ul li:last-child {
+   				
+   				margin-right: 0px;
+   			}
+   			#about-people-photos-wrap ul a {
+	   			color: #000;
+	   			display: block;
+   			}
+   			#about-people-photos-wrap ul a:hover, #about-people-photos-wrap ul a:active,#about-people-photos-wrap ul a:focus,  #about-people-photos-wrap ul a.active {
+	   			color: #fff;
+   			}
+   			 
+   			#about-people-photos-wrap a i {
+	   			height: 118px;
+	   			width: 100%;
+	   			display: block;
+	   			margin-top: 11px;
+   			}
+   			#about-people-photos-wrap a.tony-kim i {
+	   			background: url("../images/about-leadership-tony-kim.jpg") -2px -2px no-repeat;
+	   			
+   			}
+   			#about-people-photos-wrap a.tony-kim:hover i, #about-people-photos-wrap a.tony-kim.active i {
+	   			background: url("../images/about-leadership-tony-kim.jpg") -2px -126px no-repeat;
+   			}
+   			#about-people-photos-wrap a.greg-braun i {
+	   			background: url("../images/about-leadership-greg-braun.jpg") -2px -2px no-repeat;
+	   			
+   			}
+   			#about-people-photos-wrap a.greg-braun:hover i, #about-people-photos-wrap a.greg-braun.active i {
+	   			background: url("../images/about-leadership-greg-braun.jpg") -2px -126px no-repeat;
+   			}
+   			#about-people-photos-wrap a.don i {
+	   			background: url("../images/about-leadership-don-longfellow.jpg") -2px -2px no-repeat;
+	   			
+   			}
+   			#about-people-photos-wrap a.don:hover i, #about-people-photos-wrap a.don.active i {
+	   			background: url("../images/about-leadership-don-longfellow.jpg") -2px -126px no-repeat;
+   			}
+   			#about-people-photos-wrap a.david i {
+	   			background: url("../images/about-leadership-david-minkin.jpg") -2px -2px no-repeat;
+	   			
+   			}
+   			#about-people-photos-wrap a.david:hover i, #about-people-photos-wrap a.david.active i {
+	   			background: url("../images/about-leadership-david-minkin.jpg") -2px -126px no-repeat;
+   			}
+   			#about-people-photos-wrap a.cynthia i {
+	   			background: url("../images/about-leadership-cynthia-jensen.jpg") -2px -2px no-repeat;
+	   			
+   			}
+   			#about-people-photos-wrap a.cynthia:hover i,#about-people-photos-wrap a.cynthia.active i {
+	   			background: url("../images/about-leadership-cynthia-jensen.jpg") -2px -126px no-repeat;
+   			}
+   			
+   			#about-people-photos-wrap a .name {
+	   			font-family: "Trebuchet MS", "TrebuchetMS", 'TrebuchetMS', Arial, sans-serif;
+	   			font-size: 11px;
+	   			font-weight: bold;
+	   			
+   			}
+   			#about-people-photos-wrap a .desig {
+	   			font-size: 11px;
+	   			
+	   			font-weight: normal;
+	   			font-family: "Trebuchet MS", "TrebuchetMS", 'TrebuchetMS', Arial, sans-serif;
+   			}
+   			#about-people-photos-wrap ul li img {
+/*   				min-height: 118px;
+   				max-width: 118px;
+   				max-height: 118px;
+   				max-width: 160px;
+*/				margin: 0 8px 8px 0;
+				-webkit-box-shadow: #666 2px 2px 3px;
+				-moz-box-shadow: #666 2px 2px 3px;
+				box-shadow: #666 2px 2px 3px;
+				behavior: url(/js/PIE.htc);
+   			}
+   			.callout {
+	   			font-size: 4.30769230769231em;
+	   			font-family: 'AvantGardeDemi';
+	   			padding-top: 36px;
+	   			width: 950px;
+	   			margin: 0 auto;
+   			}
+   			.biography {
+   				margin:0 auto;
+   				width: 950px;
+	   			padding-top: 36px;
+	   			
+	   			
+   			}
+   			
+   			.biography .title h1 {
+	   			font-family: 'AvantGardeDemi';
+	   			font-size: 3.69171428571408em;
+	   			display: inline-block;
+   			}
+   			.biography .bio-text {
+   				margin-top: 30px;
+	   			-moz-column-count: 2;
+	   			-webkit-column-count: 2;
+	   			-o-column-count:2;
+	   			-ms-column-count:2;
+	   			column-count:2;
+	   			-moz-column-gap: 10px;
+	   			-webkit-column-gap: 10px;
+	   			-o-column-gap:10px;
+	   			-ms-column-gap:10px;
+	   			column-gap:10px;
+   			}
+   			.biography .designation {
+	   			display: inline-block;
+	   			margin-left: 40px;
+   			}
+   			.biography p {
+	   			font-size: 14px;
+	   			line-height: 24px;
+   			}
+
+
+   		#where-we-work-wrap {
+   			margin: 0 auto;
+   			height: 620px;
+   			width: 960px;
+   		}
+
+   			#where-we-work-hero-wrap {
+   				margin: 0 auto;
+   				padding: 36px 0 0 0;
+   				width: 960px;
+   			}
+
+   			.where-we-work-hero h1 {
+   				color: #fff;
+				font-family: 'AvantGardeDemi';
+	   			font-size: 4.30em;
+	   			line-height: 1.125em;
+   			}
+
+   			.where-we-work-hero p {
+   				color: #fff;
+				font-family: "Trebuchet MS", "TrebuchetMS", 'TrebuchetMS', Arial, sans-serif;
+   				font-size: 1.16em;
+   				padding: 28px 0 0 0;
+   			}
+
+   			#where-we-work-photos-wrap {
+   				 margin: 0 auto;
+   				 height: 620px;
+   				 width: 990px;
+   			}
+
+   			#where-we-work-photos-wrap ul li {
+   				float: left;
+   				list-style-type: none;
+   			}
+   			#where-we-work-photos-wrap ul li a {
+	   			display: block;
+	   			position: relative;
+	   			margin: 0 8px 8px 0;
+   			}
+   			
+   			#where-we-work-photos-wrap ul li a::before
+   			{
+	   			content: "";
+	   			position: absolute;
+	   			top:0;
+	   			bottom: 0;
+	   			left: 0;
+	   			right: 0;
+	   			height: 100%;
+	   			width: 100%;
+	   			background: url("../images/where-we-work-diagonal-hover.png") 2px 0px no-repeat transparent;
+	   			opacity: 0;
+   			}
+   			#where-we-work-photos-wrap ul li a:hover::before
+   				{
+	   				opacity: 0.5;
+   				}
+   			#where-we-work-photos-wrap ul li img {
+   				
+   				max-height: 116px;
+   				max-width: 157px;
+				
+				display: block;
+				height: 110px;
+				width: 152px;
+				-webkit-box-shadow: #666 2px 2px 3px;
+				-moz-box-shadow: #666 2px 2px 3px;
+				box-shadow: #666 2px 2px 3px;
+				behavior: url(/js/PIE.htc);
+   			}
+   		
+   		
+   		hr.horiz-marquee-about {
+			float: left;
+			border: 0;
+			height: 0;
+			margin: 0 auto;
+			border-top: 1px solid rgba(0, 0, 0, 0);
+			border-bottom: 1px solid rgba(255, 255, 255, 1);
+			width: 928px;
+		}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<artgallery>
+  <section src="artGallery">
+    <title>INNOCEAN Art Gallery</title>
+		<content>
+			<image name="5 to 9" amount="12" folder="5to9" video="63782684">
+				<copy><![CDATA[The 5 to 9 exhibition illuminates the personal artwork of the INNOCEAN staff. After the 9-to-5 workday... ]]> </copy> 
+				<copy><![CDATA[The 5 to 9 exhibition illuminates the personal artwork of the INNOCEAN staff. After the 9-to-5 workday ends, our spirits get a second wind. This collection represents how our creative energies come alive within the hours from 5 to 9. Creativity is restless by nature. And this show expresses how the creative spark personally motivates those who work at INNOCEAN.]]> </copy> 
+				<copy><![CDATA[<strong> </strong>  ]]> </copy>  
+			</image>
+			<image name="Shag" amount="12" folder="Shag" video="50168683">
+				<copy><![CDATA[As a world-renowned Southern California Artist, Shag incorporates his signature mid-century modern... ]]> </copy> 
+				<copy><![CDATA[As a world-renowned Southern California Artist, Shag incorporates his signature mid-century modern aesthetic into narrative paintings of sophistication and fun. For INNOCEAN, Shag created an original piece reminiscent of the 1960’s advertising industry, but modernized with vignettes from various INNOCEAN commercial shoots. <BR><BR><span class="shagLink"> Experience the SHAG Music </span><BR><BR> ]]> </copy> 
+				<copy><![CDATA[<strong> </strong>  ]]> </copy>  
+			</image>
+			<image name="Alex Chiu" amount="12" folder="Chiu" video="57028336">
+				<copy><![CDATA[When INNOCEAN wanted to do something positive for the local community, we teamed up with Alex Chiu...]]> </copy>  
+				<copy><![CDATA[When INNOCEAN wanted to do something positive for the local community, we teamed up with Alex Chiu to create the <i>Don’t Trash Where You Splash </i> installation. After removing over 13,000 pieces of trash from local beaches, we commissioned Alex to design a sculpture out of it. The resulting display, made from the collected debris, received the attention and the praise of the Huntington Beach community. ]]> </copy> 
+				<copy><![CDATA[<strong> </strong>  ]]> </copy>  
+			</image>
+			<image name="Pinky Taylor" amount="12" folder="Pinky" video="57078188">
+				<copy><![CDATA[To introduce CURRENT to the local community, we wanted to pay homage to the surf culture that Huntington Beach is... ]]> </copy> 
+				<copy><![CDATA[ To introduce CURRENT to the local community, we wanted to pay homage to the surf culture that Huntington Beach is known for. So we tapped local artist, and pro surfer, Pinky Taylor.  Undeniably original, Pinky’s style reflects the chaos and color of chasing that perfect wave. His installation included mixed-media pieces as well as custom-painted surfboards, that are now a part of the INNOCEAN permanent collection.  ]]> </copy> 
+				<copy><![CDATA[<strong></strong> ]]> </copy>  
+			</image>
+		</content>
+  </section>
+</artgallery>

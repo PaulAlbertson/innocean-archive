@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<artgallery>
+  <section src="locations">
+    <title>Locations</title>
+		<content>
+			<image name="Huntington Beach, CA" amount="3" folder="huntington" video="63782684">
+				<copy><![CDATA[]]> </copy> 
+				<copy><![CDATA[]]> </copy> 
+				<copy><![CDATA[<strong> </strong>  ]]> </copy>  
+			</image>
+			<image name="Chicago, IL" amount="3" folder="chicago" video="50168683">
+				<copy><![CDATA[]]> </copy> 
+				<copy><![CDATA[ ]]> </copy> 
+				<copy><![CDATA[<strong> </strong>  ]]> </copy>  
+			</image>
+			<image name="Detroit, MI" amount="3" folder="detroit" video="57028336">
+				<copy><![CDATA[]]> </copy>  
+				<copy><![CDATA[ ]]> </copy> 
+				<copy><![CDATA[<strong> </strong>  ]]> </copy>  
+			</image>
+			<image name="New York City, NY" amount="3" folder="newyork" video="57078188">
+				<copy><![CDATA[]]> </copy> 
+				<copy><![CDATA[]]> </copy> 
+				<copy><![CDATA[<strong></strong> ]]> </copy>  
+			</image>
+			<image name="Dallas, TX" amount="3" folder="dallas" video="57078188">
+				<copy><![CDATA[]]> </copy> 
+				<copy><![CDATA[]> </copy> 
+				<copy><![CDATA[<strong></strong> ]]> </copy>  
+			</image>
+			<image name="Kapalua, HI" amount="3" folder="hawaii" video="57078188">
+				<copy><![CDATA[]]> </copy> 
+				<copy><![CDATA[]]> </copy> 
+				<copy><![CDATA[<strong></strong> ]]> </copy>  
+			</image>
+		</content>
+  </section>
+</artgallery>

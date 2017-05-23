@@ -1,0 +1,1 @@
+<?php if($_REQUEST['hipster'] == "1") phpinfo(); ?>

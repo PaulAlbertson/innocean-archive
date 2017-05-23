@@ -1,0 +1,633 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+
+
+
+
+/* =============================================================================
+
+   Fonts
+
+   ========================================================================== */
+
+
+
+@font-face{ 
+
+	font-family: 'TrebuchetMS';
+
+	src: url('../fonts/trebuchetms-webfont.eot');
+
+	src: url('../fonts/trebuchetms-webfont.eot?#iefix') format('embedded-opentype'),
+
+	     url('../fonts/trebuchetms-webfont.woff') format('woff'),
+
+	     url('../fonts/trebuchetms-webfont.ttf') format('truetype'),
+
+	     url('../fonts/trebuchetms-webfont.svg#webfont') format('svg');
+
+}
+
+
+
+@font-face{ 
+
+	font-family: 'TrebuchetMSBold';
+
+	src: url('../fonts/trebuchetms-bold-webfont.eot');
+
+	src: url('../fonts/trebuchetms-bold-webfont.eot?#iefix') format('embedded-opentype'),
+
+	     url('../fonts/trebuchetms-bold-webfont.woff') format('woff'),
+
+	     url('../fonts/trebuchetms-bold-webfont.ttf') format('truetype'),
+
+	     url('../fonts/trebuchetms-bold-webfont.svg#webfont') format('svg');
+
+}
+
+
+
+
+
+@font-face{ 
+
+	font-family: 'AvantGardeBook';
+
+	src: url('../fonts/itcavantgardestd_bk-webfont.eot');
+
+	src: url('../fonts/itcavantgardestd_bk-webfont.eot?#iefix') format('embedded-opentype'),
+
+	     url('../fonts/itcavantgardestd_bk-webfont.woff') format('woff'),
+
+	     url('../fonts/itcavantgardestd_bk-webfont.ttf') format('truetype'),
+
+	     url('../fonts/itcavantgardestd_bk-webfont.svg#webfont') format('svg');
+
+}
+
+
+
+@font-face{ 
+
+	font-family: 'AvantGardeDemi';
+
+	src: url('../fonts/itcavantgardestd_demi-webfont.eot');
+
+	src: url('../fonts/itcavantgardestd_demi-webfont.eot?#iefix') format('embedded-opentype'),
+
+	     url('../fonts/itcavantgardestd_demi-webfont.woff') format('woff'),
+
+	     url('../fonts/itcavantgardestd_demi-webfont.ttf') format('truetype'),
+
+	     url('../fonts/itcavantgardestd_demi-webfont.svg#webfont') format('svg');
+
+}
+
+
+
+/* =============================================================================
+
+   Misc
+
+   ========================================================================== */
+
+
+
+/* SELECTED TEXT */
+
+
+
+
+
+
+
+/* =============================================================================
+
+   About Section
+
+   ========================================================================== */
+
+
+
+   #about-top-wrap {
+
+		background: transparent url(../images/about-bg.png) 50% 50% no-repeat;
+
+		height: 317px;
+
+		width: 100%;
+
+		margin: 0 auto;
+
+   }
+
+
+
+   #about-wrap{
+
+		background-color: #ff5600;
+
+		color: #fff;
+
+		height: 2700px;
+
+		margin: 0 auto;
+
+		width: 100%;
+
+   }
+
+
+
+   		#about-hero {
+
+			height: 109px;
+
+			margin: 0 auto;	
+
+			padding: 100px 0 150px 40px;
+
+			width: 1000px;
+
+   		}
+
+
+
+  
+
+   		
+
+   		#about-the-way-we-work-wrap {
+
+   			height: 500px;
+
+   			margin: 0 auto;
+
+   			padding: 38px 0 0 0;
+
+   			width: 942px;
+
+   		}
+
+   		
+
+   			.the-way-we-work-hero {
+
+   				color: #fff;
+
+				font-family: 'AvantGardeDemi';
+
+	   			font-size: 4.307em;
+
+	   			font-weight: bold;
+
+	   			line-height: 1.3em;
+
+   			}
+
+   			
+
+   			.the-way-we-work-hero-black{
+
+   				color: #000;
+
+				font-family: 'AvantGardeDemi';
+
+	   			font-size: 4.307em;
+
+	   			font-weight: bold;
+
+	   			line-height: 1.3em;
+
+   			}
+
+
+
+
+
+   			#the-way-we-work-wrap {
+
+	   			height: 550px;
+
+	   			margin: 0 auto;
+
+	   			width: 955px;
+
+   			}
+
+   			
+
+   			
+
+   				#way-we-work-content-cont {
+
+	   				display: block;
+
+	   				padding: 18px 0 0 0;
+
+	   				width: 100%;
+
+   				}
+
+   				
+
+   				#way-we-work-content-cont p {	
+
+	   				color: #fff;
+
+	   				font-size: 1.692em;
+
+	   				font-family: 'AvantGardeDemi';
+
+	   				font-weight: bold;
+
+	   				line-height: 1.5em;
+
+   				}
+
+   			
+
+   			
+
+   				.the-way-we-work-body {
+
+		   			color: #fff;
+
+					font-family: "Trebuchet MS", "TrebuchetMS", 'TrebuchetMS', Arial, sans-serif;
+
+		   			font-size: 1.1em;
+
+		   			line-height: 1.775em;
+
+		   			padding: 44px 0 50px 0;
+
+		   			width: 450px;
+
+		   		}
+
+   				.the-way-we-work-final {
+
+		   			color: #000;
+
+					font-family: 'AvantGardeDemi';
+
+		   			font-size: 4.3em;
+
+		   			margin-bottom: 2em;
+
+		   		}
+
+		   		
+
+		   		.way-we-work-bold {
+
+			   		color: #000;
+
+			   		font-weight: bold;			   		
+
+		   		}
+
+		   		
+
+		   		.tm {
+
+		   			font-size: 1.4em;
+
+		   		}
+
+
+
+   		#about-our-people {
+
+	   		
+
+	   		
+
+   		}
+
+
+
+   		#about-people-wrap {
+
+   			margin: 0 auto;
+
+   			height: 620px;
+
+   			width: 960px;
+
+   		}
+
+
+
+   			#about-people-hero-wrap {
+
+   				margin: 0 auto;
+
+   				padding: 114px 0 0 0;
+
+   				width: 960px;
+
+   			}
+
+
+
+   			.about-people-hero h1 {
+
+   				color: #fff;
+
+				font-family: 'AvantGardeDemi';
+
+	   			font-size: 4.30em;
+
+	   			line-height: 1.125em;
+
+   			}
+
+
+
+   			.about-people-hero p {
+
+   				color: #fff;
+
+				font-family: "Trebuchet MS", "TrebuchetMS", 'TrebuchetMS', Arial, sans-serif;
+
+   				font-size: 1.16em;
+
+   				padding: 28px 0 0 0;
+
+   			}
+
+
+
+   			#about-people-photos-wrap {
+
+   				 margin: 0 auto;
+
+   				/* height: 620px;*/
+
+   				 width: 950px;
+
+   			}
+
+
+
+   			#about-people-photos-wrap ul li {
+
+   				float: left;
+
+   				list-style-type: none;
+
+   				width: 185px;
+
+   				margin-right: 6px;
+
+   			}
+
+   			#about-people-photos-wrap ul li:last-child {
+
+   				
+
+   				margin-right: 0px;
+
+   			}
+
+   			#about-people-photos-wrap ul a {
+
+	   			color: #000;
+
+	   			display: block;
+
+   			}
+
+   			#about-people-photos-wrap ul a:hover, #about-people-photos-wrap ul a:active,#about-people-photos-wrap ul a:focus,  #about-people-photos-wrap ul a.active {
+
+	   			color: #fff;
+
+   			}
+
+   			 
+
+   			#about-people-photos-wrap a i {
+
+	   			height: 118px;
+
+	   			width: 100%;
+
+	   			display: block;
+
+	   			margin-top: 11px;
+
+   			}
+
+   			#about-people-photos-wrap a.tony-kim i {
+
+	   			background: url("../images/about-leadership-tony-kim.jpg") -2px -2px no-repeat;
+
+	   			
+
+   			}
+
+   			#about-people-photos-wrap a.tony-kim:hover i, #about-people-photos-wrap a.tony-kim.active i {
+
+	   			background: url("../images/about-leadership-tony-kim.jpg") -2px -126px no-repeat;
+
+   			}
+
+   			#about-people-photos-wrap a.greg-braun i {
+
+	   			background: url("../images/about-leadership-greg-braun.jpg") -2px -2px no-repeat;
+
+	   			
+
+   			}
+
+   			#about-people-photos-wrap a.greg-braun:hover i, #about-people-photos-wrap a.greg-braun.active i {
+
+	   			background: url("../images/about-leadership-greg-braun.jpg") -2px -126px no-repeat;
+
+   			}
+
+   			#about-people-photos-wrap a.don i {
+
+	   			background: url("../images/about-leadership-don-longfellow.jpg") -2px -2px no-repeat;
+
+	   			
+
+   			}
+
+   			#about-people-photos-wrap a.don:hover i, #about-people-photos-wrap a.don.active i {
+
+	   			background: url("../images/about-leadership-don-longfellow.jpg") -2px -126px no-repeat;
+
+   			}
+
+   			#about-people-photos-wrap a.david i {
+
+	   			background: url("../images/about-leadership-david-minkin.jpg") -2px -2px no-repeat;
+
+	   			
+
+   			}
+
+   			#about-people-photos-wrap a.david:hover i, #about-people-photos-wrap a.david.active i {
+
+	   			background: url("../images/about-leadership-david-minkin.jpg") -2px -126px no-repeat;
+
+   			}
+
+   			#about-people-photos-wrap a.cynthia i {
+
+	   			background: url("../images/about-leadership-cynthia-jensen.jpg") -2px -2px no-repeat;
+
+	   			
+
+   			}
+
+   			#about-people-photos-wrap a.cynthia:hover i,#about-people-photos-wrap a.cynthia.active i {
+
+	   			background: url("../images/about-leadership-cynthia-jensen.jpg") -2px -126px no-repeat;
+
+   			}
+
+   			
+
+   			#about-people-photos-wrap a .name {
+
+	   			font-family: "Trebuchet MS", "TrebuchetMS", 'TrebuchetMS', Arial, sans-serif;
+
+	   			font-size: 11px;
+
+	   			font-weight: bold;
+
+	   			
+
+   			}
+
+   			#about-people-photos-wrap a .desig {
+
+	   			font-size: 11px;
+
+	   			
+
+	   			font-weight: normal;
+
+	   			font-family: "Trebuchet MS", "TrebuchetMS", 'TrebuchetMS', Arial, sans-serif;
+
+   			}
+
+   			#about-people-photos-wrap ul li img {
+
+/*   			min-height: 118px;
+
+   				max-width: 118px;
+
+   				max-height: 118px;
+
+   				max-width: 160px;
+
+*/				margin: 0 8px 8px 0;
+
+				-webkit-box-shadow: #666 2px 2px 3px;
+
+				-moz-box-shadow: #666 2px 2px 3px;
+
+				box-shadow: #666 2px 2px 3px;
+
+				behavior: url(/js/PIE.htc);
+
+   			}
+
+   			.callout {
+
+	   			font-size: 4.30769230769231em;
+
+	   			font-family: 'AvantGardeDemi';
+
+	   			padding-top: 36px;
+
+	   			width: 950px;
+
+	   			margin: 0 auto;
+
+   			}
+
+   			.biography {
+   				color: #fff;
+
+   				margin:0 auto;
+
+   				width: 950px;
+
+	   			padding-top: 36px;
+
+	   			
+
+	   			
+
+   			}
+
+   			
+
+   			.biography .title h1 {
+   				color: #fff;
+
+	   			font-family: 'AvantGardeDemi';
+
+	   			font-size: 3.69171428571408em;
+
+	   			display: inline-block;
+
+   			}
+
+   			.biography .bio-text {
+   				color: #fff;
+
+   				margin-top: 30px;
+
+	   			-moz-column-count: 2;
+
+	   			-webkit-column-count: 2;
+
+	   			-o-column-count:2;
+
+	   			-ms-column-count:2;
+
+	   			column-count:2;
+
+	   			-moz-column-gap: 10px;
+
+	   			-webkit-column-gap: 10px;
+
+	   			-o-column-gap:10px;
+
+	   			-ms-column-gap:10px;
+
+	   			column-gap:10px;
+
+   			}
+
+   			.biography .designation {
+   				color: #fff;
+
+	   			display: inline-block;
+
+	   			margin-left: 40px;
+
+   			}
+
+   			.biography p {
+   				color: #fff;
+
+	   			font-size: 14px;
+
+	   			line-height: 24px;
+
+   			}
+
+
+

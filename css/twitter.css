@@ -1,0 +1,451 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* =============================================================================
+   Fonts
+   ========================================================================== */
+
+@font-face{ 
+	font-family: 'TrebuchetMS';
+	src: url('../fonts/trebuchetms-webfont.eot');
+	src: url('../fonts/trebuchetms-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/trebuchetms-webfont.woff') format('woff'),
+	     url('../fonts/trebuchetms-webfont.ttf') format('truetype'),
+	     url('../fonts/trebuchetms-webfont.svg#webfont') format('svg');
+}
+
+@font-face{ 
+	font-family: 'TrebuchetMSBold';
+	src: url('../fonts/trebuchetms-bold-webfont.eot');
+	src: url('../fonts/trebuchetms-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/trebuchetms-bold-webfont.woff') format('woff'),
+	     url('../fonts/trebuchetms-bold-webfont.ttf') format('truetype'),
+	     url('../fonts/trebuchetms-bold-webfont.svg#webfont') format('svg');
+}
+
+
+@font-face{ 
+	font-family: 'AvantGardeBook';
+	src: url('../fonts/itcavantgardestd_bk-webfont.eot');
+	src: url('../fonts/itcavantgardestd_bk-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/itcavantgardestd_bk-webfont.woff') format('woff'),
+	     url('../fonts/itcavantgardestd_bk-webfont.ttf') format('truetype'),
+	     url('../fonts/itcavantgardestd_bk-webfont.svg#webfont') format('svg');
+}
+
+@font-face{ 
+	font-family: 'AvantGardeDemi';
+	src: url('../fonts/itcavantgardestd_demi-webfont.eot');
+	src: url('../fonts/itcavantgardestd_demi-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/itcavantgardestd_demi-webfont.woff') format('woff'),
+	     url('../fonts/itcavantgardestd_demi-webfont.ttf') format('truetype'),
+	     url('../fonts/itcavantgardestd_demi-webfont.svg#webfont') format('svg');
+}
+
+
+/* =============================================================================
+   Twitter Section
+   ========================================================================== */
+
+	#twitter-wrap {
+		background:'#fff';
+		height: 200px;
+		padding: 20px 0 0 0;	
+		margin: 0 auto;
+		overflow: hidden;
+		width: 940px;
+		position: relative;
+		top: -70px;
+		z-index: 20;
+	}
+	
+		#twitterlicious {
+			margin: 0 auto;
+			height: 0;
+			padding: 0 0 0 0;
+			width: 800px;
+		}
+
+		#twitterlicious .bx-wrapper .bx-window{
+			padding-top:80px !important;
+		}
+		
+			#twitter-left-arrow {
+				float: left;
+				height: 106px;
+				padding: 90px 0 0 10px;
+				width: 38px;
+			}
+		
+			#twitter-right-arrow {
+				float: left;
+				height: 106px;
+				padding: 0 0 0 10px;
+				width: 38px;
+			}
+		
+			#tweets-wrap {
+				float: left;
+				height: 200px;
+				max-height: 200px;
+				padding: 5px 0 0 10px;
+				overflow: hidden;
+				width: 800px;
+			}
+		
+				#innocean-twitter{
+					float: left;
+					width: 100%;
+				}
+		
+				.twitter-username-bold {
+					color:#e25a16;
+					font-family: Helvetica, sans-serif;
+					font-size: 1.846em;
+					font-weight: bold;
+				}
+				
+				.twitter-username {
+					color:#e25a16;
+					font-family: Helvetica, sans-serif;
+					font-size: 1.846em;
+					font-weight: normal;
+				}
+			
+			
+			#twitter-tweet-wrap {
+				padding: 26px 0 6px 0;
+				width: 100%;
+			}
+			
+				.tweet {
+					color: #292929;
+					font-family: Helvetica, sans-serif;
+					font-size: 1em;
+					line-height: 1.275em;
+					font-weight: lighter;
+				}
+			
+				a.twitter-mention {
+					color: #e25a16 !important;
+					font-family: Helvetica, sans-serif;
+					font-size: 1em;
+				}
+
+				a.twitter-link {
+					color: #e25a16 !important;
+					font-family: Helvetica, sans-serif;
+					font-size: 1em;
+				}
+				a.twitter-hashtag {
+					color: #e25a16 !important;
+					font-family: Helvetica, sans-serif;
+					font-size: 1em;
+				}	
+				
+				#twitter-timestamp-wrap {
+					width: 100%;				
+				}
+			
+				.tweet-timestamp {
+					color:#999;
+					font-family: Helvetica, sans-serif;
+					font-size: .8em;
+				}
+ 
+ 				.tweet a:link, a:hover {
+ 					color:#999;
+					font-family: Helvetica, sans-serif;
+					font-size: 1em;
+ 				}
+ 
+
+				#slider-twitter {
+					width: 960px;						
+				}
+
+
+
+/* =============================================================================
+   10x10 Section
+   ========================================================================== */
+
+
+
+   #tenbyten-wrap {
+   	background-color: #202020;
+   	background: #202020 url(../images/10x10-hero.png) 50% bottom no-repeat fixed;
+   	height: 1984px;
+   	margin: 0 auto;
+   	width: 100%;
+   	display: block;
+   }
+
+   #tenbyten {
+	height: 1305px;
+	width: 960px;
+	margin: 0 auto;
+   }
+
+	   #tenbyten-hero {
+	   	height: 154px;
+		width: 200px;
+		margin: 0 auto;	
+		padding: 727px 0 0 0;
+	   }
+
+	   #tenbyten-hero h2 {
+		   color: #7c7c7c;
+		   font-family: 'AvantGardeDemi';
+		   font-size: 1.8em;
+		   padding: 10px 0 0 0;
+		   text-align: center;
+		   text-transform: uppercase;
+	   }
+	   
+	   #tenbyten-address-wrap {
+		   height: 68px;
+		   margin: 0 auto;
+		   width: 200px;
+	   }
+	   
+	   		.tenbyten-address {
+		   		color: #7c7c7c;
+		   		font-family: 'AvantGardeDemi';
+				font-size: 0.9em;
+				text-align: center;
+	   		}
+		   
+	   
+	   #tenbyten-desc-wrap {
+		   height: 144px;
+		   margin: 0 auto;
+		   width: 600px;
+	   }
+
+	   		.tenbyten-description {
+		   		color: #7c7c7c;
+		   		font-family: "Trebuchet MS";
+		   		font-size: 1.1em;
+		   		line-height: 1.7em;
+	   		}
+
+   	   #tenbyten-gallery-wrap {
+		   height: 640px;
+		   margin: 0 auto;
+		   width: 960px;		   
+	   }   
+   
+	   		#tenbyten-header-wrap {
+		   		display: block;
+		   		float: left;
+		   		height: 50px;
+		   		padding: 0 0 0 180px;
+		   		width: 960px;		   		
+	   		}   
+   
+	   		#tenbyten-header {
+		   		display: block;
+		   		float: left;
+		   		height: 50px;
+		   		width: 478px;		   		
+	   		}
+   
+		   		#tenbyten-header h3 {
+			   		color: #fff;
+			   		font-family: "Trebuchet MS";
+			   		font-size: 1em;
+		   		}
+
+		   		#tenbyten-other-exhibits {
+			   		display: block;
+			   		float: left;
+			   		height: 50px;
+			   		width: 482px;			   		
+		   		}
+
+		   		#tenbyten-other-exhibits a:hover, a:focus {
+		   			color: #ff5600;
+		   			font-family: "Trebuchet MS";
+		   			font-size: 1.0769em;
+		   			font-weight: bold;
+		   			text-decoration: underline;
+		   		}
+
+		   		#tenbyten-other-exhibits a, #tenbyten-other-exhibits a:active {
+		   			color: #ff5600;
+		   			font-family: "Trebuchet MS";
+		   			font-size: 1.0769em;
+		   			font-weight: bold;
+		   			text-decoration: none;
+		   		}
+
+		   		#tenbyten-other-exhibits-cont {
+					display: block;
+					float: left;
+					height: 640px;
+					width: 806px;		   			
+		   		}
+
+		   			#tenbyten-other-exhibits-cont a, #tenbyten-other-exhibits a:active {
+						color: #ff5600;
+			   			font-family: "Trebuchet MS";
+			   			font-size: 1.384em;
+			   			font-weight: bold;
+			   			text-decoration: none;
+		   			}
+
+			   		#tenbyten-other-exhibits-cont a:hover, a:focus {
+			   			color: #ff5600;
+			   			font-family: "Trebuchet MS";
+			   			font-size: 1.384em;
+			   			font-weight: bold;
+			   			text-decoration: underline;
+			   		}
+
+
+	   		#tenbyten-gallery-thbs {
+		   		float: left;
+		   		height: 640px;
+		   		width: 154px;		   		
+	   		}
+	   		
+		   		#tenbyten-gallery-thbs ul {
+			   		list-style-type: none;
+			   		display: inline;
+		   		}
+
+		   		#tenbyten-gallery-thbs ul li {
+			   		margin: 0 0 18px 0;
+		   		}
+
+		   	#tenbyten-gallery-large {
+			   	display: block;
+			   	float: left;
+			   	height: 640px;
+			   	width: 806px;
+		   	}
+
+			#tenbyten-gallery-large > #tenbyten-main-img {background: #1d1d1d;}	
+
+	   		#tenbyten-visit-header {
+		   		display: block;
+		   		float: left;
+		   		height: 50px;
+		   		padding: 0 0 0 180px;
+		   		width: 780px;		   		
+	   		}
+   
+	   		#tenbyten-visit-header h1 {
+		   		background: url('../images/arrow-orange.png') 0 10px no-repeat;
+		   		color: #ff5600;
+		   		display: block;
+		   		font-family: "Trebuchet MS";
+		   		font-size: 1.6em;
+		   		padding: 0 0 0 20px;
+	   		}
+
+
+
+
+/* =============================================================================
+	  bxSlider : http://bxslider.com
+   ========================================================================== */
+		
+		
+		/*next button*/
+		.bx-next {
+			position:absolute;
+			top:25%;
+			right:-50px;
+			z-index:999;
+			width: 46px;
+			height: 114px;
+			text-indent: -999999px;
+			background: url('../images/portfolio-arrows.png') no-repeat -46px -108px;
+		}
+		
+		/*previous button*/
+		.bx-prev {
+			position:absolute;
+			top:25%;
+			left:-70px;
+			z-index:999;
+			width: 46px;
+			height: 114px;
+			text-indent: -999999px;
+			background: url('../images/portfolio-arrows.png') no-repeat 0 -108px;
+		}
+		
+		/*pager links*/
+		.bx-pager a {
+			margin-right: 5px;
+			color: #fff;
+			padding: 3px 8px 3px 6px;
+			font-size: 12px;
+			zoom:1;
+			background: url('../images/gray_pager.png') no-repeat 0 -20px;
+		}
+		
+		/*auto start button*/
+		.bx-auto .start {
+			background: url('../images/gray_auto.png') no-repeat 0 2px;
+			padding-left: 13px;
+		}
+		
+		/*auto stop button*/
+		.bx-auto .stop {
+			background: url('../images/gray_auto.png') no-repeat 0 -14px;
+			padding-left: 13px;
+		}
+		
+		/*
+		 * End color scheme styles
+		 */
+		
+		
+		/*next/prev button hover state*/
+		.bx-next:hover {
+			background-position: -46px 6px;
+		}
+
+		.bx-prev:hover {
+			background-position: 0 6px;
+		}
+		
+		/*pager links hover and active states*/
+		.bx-pager .pager-active,
+		.bx-pager a:hover {
+			background-position: 0 0;
+
+		}
+		
+		/*pager wrapper*/
+		.bx-pager {
+			padding-top: 7px;
+			font-size:12px;
+			color:#666;
+		}
+		
+		/*captions*/
+		.bx-captions {
+			text-align:center;
+			font-size: 12px;
+			padding: 7px 0;
+			color: #666;
+		}
+		
+		/*auto controls*/
+		.bx-auto {
+			text-align: center;
+			padding-top: 15px;
+		}
+		
+		.bx-auto a {
+			color: #666;
+			font-size: 12px;
+		}
+			
+ 

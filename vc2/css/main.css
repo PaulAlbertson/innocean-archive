@@ -1,0 +1,331 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face{ 
+	font-family:'Mymikodacspcs-webfont';
+	src: url('../fonts/mikodacspcs-webfont.eot');
+	src: url('../fonts/mikodacspcs-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/mikodacspcs-webfont.woff') format('woff'),
+	     url('../fonts/mikodacspcs-webfont.ttf') format('truetype'),
+	     url('../fonts/mikodacspcs-webfont.svg#mikodacspcs-webfont') format('svg');
+}
+
+
+
+body {
+	background-color:black;
+	
+}
+
+
+header {
+	background: url(../images/nav_tile.png) top center repeat-x;
+	width:100%;
+	top:0;
+	position:fixed;
+	height:50px;
+}
+
+nav {
+	height : 25px;
+	width: 100%;
+	color: #878585;
+	text-decoration: none;
+	font-family: "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	margin-top: 15px;
+	font-size: 18px;
+	word-spacing: 25px;
+	display: block;
+}
+
+a:link {
+	color: #878585;
+	 text-decoration:  none;
+}
+
+a:visited {
+	color: #878585;
+	 text-decoration:  none;
+}
+
+
+a:hover {
+	color: #fff;
+	cursor:pointer;
+}
+
+.content {
+	margin: 0px auto;
+	width:100%;
+	align: center;
+}
+
+
+footer {
+	background: url(../images/footer.gif) ;
+	width:100%;
+	height:92px;
+	min-width: 1000px;
+	
+}
+
+
+footer .address {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+	
+	
+	
+}
+
+
+.social {
+	position: relative;
+	background: url(../images/socialIcons.gif) ;
+	width: 116px;
+	height: 67px;
+	margin: 0 auto;
+	top:1px;
+}
+
+
+
+.social .link {
+	position: relative;
+	float:left;
+	width: 50%;
+	height: 100%;	
+
+}
+
+
+.address ul {
+	position:relative;
+	
+}
+
+.address li {
+	float: left;
+	font-family: "HelveticaNeue-Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size: 15px;
+	font-weight:400;
+	color: #878585;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.address  li:hover {
+
+	color: #fff;
+	cursor:pointer;
+}
+
+
+/*///////////////////////////////////////////////////
+CONTENT SECTION */
+
+.content h1{
+	font-family: "Mymikodacspcs-webfont", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	letter-spacing:1px;
+	font-size: 42px;
+	color: #8b0f12;
+}
+
+.content h2{
+	font-family: Helvetica, Arial, sans-serif; 
+	font-size: 14px;
+} 
+
+.content h3{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 28px;
+	text-align: center;
+}
+
+.content h4{
+	font-family: "Mymikodacspcs-webfont", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	letter-spacing:1px;
+	font-size: 34px;
+	color: #0000;
+	text-align:center;
+	margin-top: 15px;
+}
+
+.content h5{
+	font-family: "Mymikodacspcs-webfont", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	letter-spacing:1px;
+	font-size: 16px;
+	color: #8b0f12;
+}
+
+.content p{
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size: 16px;
+	font-weight:600;
+	line-height:21px;
+	color: #000;
+	margin-bottom:30px;
+}
+
+.frame {
+	margin-top: 115px;
+	width: 753px;
+	height: 650px;
+	background-color:#878585
+}
+
+/*///////////////////////////////////////////////////
+HOME SECTION */
+
+
+.home {
+	background: black;
+	width:100%;
+	height: 500px;
+}
+
+/*///////////////////////////////////////////////////
+ORDER BUTTON */
+
+
+.orderbutton {
+	background:#641307;
+	width:100%px;
+	height: 100px;
+}
+
+
+/*///////////////////////////////////////////////////
+BLACKHAWKS */
+
+
+.blackhawks {
+	background: url(../images/blackhawks.png) center repeat-x;
+	width:100%px;
+	height: 100px;
+}
+
+
+/*///////////////////////////////////////////////////
+ORDER SECTION */
+
+
+.order {
+	float:left;
+	width:756px;
+	height: 531px;
+	margin-bottom: 100px;	
+}
+
+/*///////////////////////////////////////////////////
+MENU SECTION */
+
+
+.menu {
+	background: url(../images/men_back.png) center no-repeat;
+	width:100%;
+	height: 800px;	
+}
+
+/*///////////////////////////////////////////////////
+DRINKS SECTION */
+
+
+.drinks {
+	background: url(../images/bar.png) center no-repeat;
+	width:100%;
+	height: 800px;	
+}
+
+/*///////////////////////////////////////////////////
+DELIVERY SECTION */
+
+
+
+.delivery {
+	float:left;
+	width:756px;
+	height: 531px;
+	margin-bottom: 100px;
+}
+
+/*///////////////////////////////////////////////////
+SPECIALS SECTION */
+
+
+
+.specials {
+	float:left;
+	width:756px;
+	height: 531px;
+	margin-bottom: 100px;	
+}
+
+/*///////////////////////////////////////////////////
+GALLERY SECTION */
+
+
+.gallery {
+	float:left;
+	width:756px;
+	height: 531px;
+	margin-bottom: 100px;	
+}
+
+/*///////////////////////////////////////////////////
+SING-UP SECTION */
+
+
+.signup {
+	float:left;
+	width:756px;
+	height: 531px;
+	margin-bottom: 100px;	
+}

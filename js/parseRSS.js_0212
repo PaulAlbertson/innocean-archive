@@ -1,0 +1,419 @@
+// Parse the WordPress RSS Feed
+
+//declare master array that will store all the RSS feed info
+var rssMasterArray = [];	
+	
+//console.log(' content: ', content);
+	
+function parseRSSWP(){
+	//clear the content in the div for the next feed.
+	$("#feedEmptyContainer").empty();
+	//use the JQuery get to grab the URL from the selected item, put the results in to an argument for parsing in the inline function called when the feed retrieval is complete
+	$.get('proxy.php?url=http://press.innoceanusa.com/?feed=rss2', function(d) {
+ 		
+		//find each 'item' in the file and parse it
+		$(d).find('item').each(function(itemIndex) {
+ 			//
+			//name the current found item this for this particular loop run
+			var $item = $(this);
+			// grab the post title
+			var title = $item.find('title').text();
+	
+			// grab the post's URL
+			var link = $item.find('link').text();
+			// next, the description
+			var description = $item.find('description').text();
+			
+			// next, the content
+			var content = $item.find('content\\:encoded').text();
+			//console.log(' content: ', content);
+			//change for webkit
+			if(content == null || content == "" ) {
+				content = $item.find('encoded').text();
+			}
+			
+			//don't forget the pubdate
+			var pubDate = $item.find('pubDate').text();
+			
+			//
+			
+			if(itemIndex < 100) {
+				//
+				// now create a var 'html' to store the markup we're using to output the feed to the browser window
+				var html = content;
+		
+				//put that feed content on the screen!
+				$('#feedEmptyContainer').append($(html));  
+	
+				//
+				var articleSource = $('#feedEmptyContainer h2').first().html();
+				//console.log('articleSource: ', articleSource);
+				//
+				var date = $('#feedEmptyContainer h3').first().html();
+				//console.log('date: ', date);
+				//
+				var teaser = $('#feedEmptyContainer h4').first().html();
+				//console.log('teaser: ', teaser);
+				//
+				
+				//create our article object
+				var pressRelease = new Object();
+				pressRelease.title = title;
+				pressRelease.articleSource = articleSource;
+				pressRelease.date = date;
+				pressRelease.teaser = teaser;
+				
+				//remove the *** and replace with <br>
+				$('#feedEmptyContainer h6:contains("***")').each(function(index) {
+					//
+					// pass on the main container which is selected because it contains the all the child divs
+					//console.log("$(this)", index,  $(this).text());
+					//
+					if( $(this).text() == "***") {
+						//console.log("replacing '***' with <br> and doesnt include text()", index);
+						$(this).replaceWith('<br>');
+					} 
+				});
+						
+			   pressRelease.image =  $('#feedEmptyContainer img');
+				
+			   //clear top html tags
+			   $('#feedEmptyContainer h2').remove();
+			   $('#feedEmptyContainer h3').remove()
+			   $('#feedEmptyContainer h4').remove()
+			   $('#feedEmptyContainer img').remove()
+			   
+			    //build content
+			   pressRelease.content =  $('#feedEmptyContainer').html();
+			   $('#feedEmptyContainer').empty(); 
+    
+			  //insert into master array
+			  rssMasterArray.push(pressRelease);
+			}
+		});
+		
+
+		finishedParsingRSS(rssMasterArray );
+	
+	});
+	
+
+		
+	function finishedParsingRSS(CompletedArray) {
+		//console.log("rssMasterArray:", rssMasterArray.length);
+		rssMasterArray = CompletedArray;
+		
+		for (var i = 0; i < rssMasterArray.length; i++) {
+			//console.log("rssMasterArray[i].articleSource: ", rssMasterArray[i].articleSource );	
+		}
+		
+		buildMenu(CompletedArray, '#news');
+	}
+	
+	
+	function buildMenu(CompletedArray, menu) {
+		
+		//console.log("buildPressButtons called");
+		
+		for (var i = 0; i < rssMasterArray.length; i++) {
+			
+			var dateHTML = '<h1>' +  CompletedArray[i].date + '</h1>';
+			var titleHTML = '<h2>' +  CompletedArray[i].title + '</h2>';
+			
+			 var articleSourceHTML = '<h3>' +  CompletedArray[i].articleSource + '</h3>';
+			
+			
+			
+			 $(menu).append("<div class='newsitems' data=" +  i +  ">" 
+			 				+ dateHTML + titleHTML + articleSourceHTML + "</div>"
+			 
+			 
+			 );	
+			 	
+		
+		}
+		
+		
+		$("#news").css({
+			"overflow": "auto",
+			"height" : "530px"
+		});
+		
+		$(".newsitems").css({
+			"padding" : "20px 20px",
+			"color" : "#000",
+			"background" : "#5a5a5a",
+			"border-style": "solid",
+			"border-bottom-color":"#9a9a9a",
+			"border-bottom-width": "1px",
+		});
+		
+		$(".newsitems h1").css({
+			"padding-bottom" : "5px",
+			"font-size" : "16px",
+			"font-family" : "arial,sans-serif",
+			"font-weight" : "normal",
+			"color" : "#fff",
+		});
+		
+		
+		$(".newsitems h2").css({
+			"padding-bottom" : "5px",
+			"font-size" : "21px",
+			"font-family" : "arial,sans-serif",
+			"font-weight" : "bold",
+			"color" : "#fff",
+		});
+		
+		$(".newsitems h3").css({
+			"padding-bottom" : "5px",
+			"font-size" : "16px",
+			"font-family" : "arial,sans-serif",
+			"font-weight" : "bold",
+			"color" : "#000",
+		});
+		
+		$(".newsitems").click(function(){
+			
+		  //console.log("click data", 	$(this).attr("data"));
+		   var currentSelection = parseInt($(this).attr("data"));
+			
+		   //console.log("Title:", CompletedArray[currentSelection].title);
+		   $('nav').append('<div id="pressOverlay"></div><div id="pressContainer"><div id="pressContent"></div><div id="pressClose"></div></div>' );
+		   
+	
+	
+		   
+		  $('#pressOverlay').css({
+			
+			   'z-index': '9999',
+			   'display':'block',
+			   'position':'fixed',
+			   'top': '0',
+			   'left': '0',
+			   'bottom': '0',
+			   'right': '0',
+			   'background':'#000',
+			   'opacity':  '0.8',
+			   'width' : '100%',
+			   'height' : '100%',
+		});
+		
+			   
+		 $('#pressContainer').css({
+
+			   'z-index': '10000',
+			   'display':'block',
+			   'position':'relative',
+			   'margin': 'auto auto',
+			   'width' : '900px',
+	 	       'top': '-15px',
+		});
+				   
+		 $('#pressContent').css({
+
+			   'z-index': '10000',
+			   'display':'block',
+			   'position':'relative',
+			   'float' : 'left',
+			   'padding' : '40px',
+			   'padding-bottom' : '80px',
+			   'background':'#fff',
+			   'width' : '780px',
+			    'height' : '450px',
+				'overflow' : 'auto',
+			   'opacity':  '1',
+			   'color' : '#000',
+	
+
+		});
+			
+		$('#pressClose').css({
+	
+			   'z-index': '10000',
+			   'display':'block',
+			   'position':'relative',
+			   'float' : 'right',
+			   'background':'url(images/press_close.png) center center no-repeat',
+			   'width' : '38px',
+			   'height' : '38px',
+		});
+		
+		
+		$('#pressClose').hover(function() {
+			
+			$(this).css({
+			 'cursor': 'pointer',
+			})	
+
+			}, function() {
+			
+		});
+				
+				
+	
+		$('#pressClose').click(function() {
+			$('#pressOverlay').remove();
+			$('#pressContainer').remove();
+			$("body").css("overflow", "auto");
+		});
+		
+		var windowY = ($(window).height() * .4) - ( $('#pressContent').height() * .5);
+		//console.log('windowY: ', windowY);
+		
+		$('#pressContent').css({
+			'top' : windowY,		
+		});
+			
+     	$('#pressClose').css({
+			'top' : windowY,	
+		});		
+  		
+			$(window).resize(function() {
+  				var windowY = ($(window).height() * .4) - ( $('#pressContent').height() * .5);
+			
+				$('#pressContent').css({
+					'top' : windowY,		
+				});
+			
+     			$('#pressClose').css({
+					'top' : windowY,	
+				});		
+			});	
+		
+		//console.log(' CompletedArray[currentSelection].image ', CompletedArray[currentSelection].image  );
+		//console.log(' CompletedArray[currentSelection].length ', CompletedArray[currentSelection].length );
+			   
+		//console.log(' CompletedArray[currentSelection].image[0] ', CompletedArray[currentSelection].image[0]  );
+	    //console.log(' CompletedArray[currentSelection].image[1] ', CompletedArray[currentSelection].image[1]  );
+				
+	
+		$('#pressContent').append($(CompletedArray[currentSelection].image[0]));
+		
+		
+				  
+		var titleHTML = '<h2>' +  CompletedArray[currentSelection].title + '</h2>';
+		$('#pressContent').append($(titleHTML));
+				   
+		var articleSourceHTML = '<h3>' +  CompletedArray[currentSelection].articleSource + '</h3>';
+		//$('#pressContent').append($(articleSourceHTML)); 
+				  
+		//console.log(' CompletedArray[currentSelection].teaser:',  CompletedArray[currentSelection].teaser);
+				   
+		if( CompletedArray[currentSelection].teaser != null) {
+			 var teaserHTML = '<h4>' +  CompletedArray[currentSelection].teaser + '</h4>';
+				 $('#pressContent').append($(teaserHTML));
+			 }
+				  
+		$('#pressContent').append($(CompletedArray[currentSelection].image[1]));
+		
+	
+		var contentHTML = '<p><h1>' + CompletedArray[currentSelection].date + '</h1> <br> ' +  CompletedArray[currentSelection].content + '</p>';
+		$('#pressContent').append($(contentHTML)); 
+		
+
+		// JavaScript Document
+		$("body").css("overflow", "hidden");
+		
+			
+		$("#pressContent div").css({
+			"top" : "-40px",
+			"position" : "relative",
+		});
+		
+			
+		$("#pressContent h1").css({
+			"padding-top" : "25px",
+			"padding-bottom" : "5px",
+			"font-size" : "14px",
+			"font-family" : "arial,sans-serif",
+			"font-weight" : "bold",
+			"color" : "#000",
+		});
+		
+		
+		$("#pressContent h2").css({
+			"padding-bottom" : "5px",
+			"font-size" : "36px",
+			"font-weight" : "900",
+			"color" : "#000",
+		});
+		
+		$("#pressContent h3").css({
+			"padding-bottom" : "5px",
+			"font-size" : "16px",
+			"font-family" : "arial,sans-serif",
+			"font-weight" : "bold",
+			"color" : "#000",
+		});
+		
+		$("#pressContent h4").css({
+			
+			"padding-bottom" : "25px",
+			"font-size" : "18px",
+			"font-family" : "arial,sans-serif",
+			"font-style" : "oblique",
+			
+			"line-height" : "21px",
+			"font-weight" : "lighter",
+			"color" : "#000",
+		});
+		
+		
+		$("#pressContent p").css({
+			"font-size" : "16px",
+			"font-family" : "arial,sans-serif",
+			"line-height" : "21px",
+			"color" : "#000",
+			"padding-top" : "10px",
+		});
+		
+		$('#pressContent a:link').css({
+			 'decoration': 'underline',
+			 'color' : '#ff5600',
+
+		});
+		
+		$("#pressContent img:nth-child(2)").css({
+			"padding-top" : "40px",
+			"padding-bottom" : "40px",
+		});
+	
+		});
+	
+		
+		$(".newsitems").hover(function(){
+			
+			$(this).stop().css({
+				"cursor" : "pointer",
+				"background-color" : "#ff5600",
+				"color" : "#000",		
+			});
+					
+		}, function(){ 
+				
+			 $(this).animate({
+				backgroundColor: '#5a5a5a'
+			  }, 1000, function() {
+				// Animation complete.
+			  });
+		
+		}) ;
+		
+		
+		
+	}
+	return rssMasterArray;
+}
+
+
+function buildArticle(CompletedArray, i, view) {
+	
+	//console.log("buildArticle called");
+	
+				
+	
+}
+
+
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+
+
+
+<title>INNOCEAN WebCam</title>
+<script type="text/javascript" src="flowplayer-3.2.8.min.js"></script>
+</head>
+
+
+
+<body>
+<a href="rtmp://cs2.pixelcaster.com/live" style="display:block; width:800px; height:450px;" id="player"></a> 
+<!-- this will install flowplayer inside previous A- tag. --> 
+<script type="text/javascript">
+	flowplayer("player", "flowplayer.commercial-3.2.8.swf", {
+		key: '#$37fa962cf3b16de33d7',
+			logo: {
+			    url: 'innocean-logo.png',
+			    bottom: 28,
+			    right: 30,
+			    opacity: 0.7,
+			    fullscreenOnly: false,
+			    displayTime: 0,
+			    linkUrl: 'http://innoceanusa.com'
+			},
+		play: {
+            opacity: 0
+        },
+        playlist: [{
+            url: 'loading.jpg',
+            scaling: 'orig'
+        },
+		{
+            url: 'innocean.stream',
+            live: true,
+			provider: 'rtmp',
+			autoBuffering: true,
+            autoPlay: true,
+            bufferLength: 2,
+            scaling: 'orig'
+        }],
+        plugins: {
+            rtmp: {
+                url: 'flowplayer.rtmp-3.2.8.swf',
+                netConnectionUrl: 'rtmp://cs2.pixelcaster.com/live'
+            },
+            controls: {
+				opacity: 0,
+                scrubber: false,
+                volume: false,
+				play: false,
+                mute: false,
+                time: false,
+		        tooltips: {
+		            buttons: true,
+		            fullscreen: 'View Fullscreen'
+		        }
+            },
+			sharing: {
+				url: 'flowplayer.sharing-3.2.8.swf',
+				embed: false,
+				facebook: {
+                	shareWindow: '_blank'
+    	        },
+	            twitter: {
+                	shareWindow: '_blank'
+    	        },
+			},
+		    dock: {
+	            right: 10,
+				horizontal: false,
+	            width: '6%'
+	        }
+		}
+	}
+);
+</script>
+</body>
+</html>
